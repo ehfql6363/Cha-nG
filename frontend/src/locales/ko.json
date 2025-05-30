@@ -1,0 +1,626 @@
+{
+  "pledge": {
+    "status": {
+      "complete": "완료",
+      "debt": "미납",
+      "expected": "예정"
+    }
+  },
+
+  "duty": {
+    "title": "당번 일정",
+    "category": {
+      "CLEANING": "청소",
+      "COOKING": "요리",
+      "SHOPPING": "장보기",
+      "MAINTENANCE": "수리",
+      "GARBAGE": "쓰레기",
+      "LAUNDRY": "세탁",
+      "PET_CARE": "반려동물",
+      "PLANT_CARE": "반려식물",
+      "SETTLEMENT": "금전",
+      "OTHER": "기타"
+    },
+    "week": {
+      "monday": "월",
+      "tuesday": "화",
+      "wednesday": "수",
+      "thursday": "목",
+      "friday": "금",
+      "saturday": "토",
+      "sunday": "일"
+    },
+    "schedule": {
+      "title": "이번주 당번",
+      "week": {
+        "first": "첫째주",
+        "second": "둘째주",
+        "third": "셋째주",
+        "fourth": "넷째주",
+        "fifth": "다섯째주"
+      }
+    },
+    "edit": {
+      "week": {
+        "title": "요일 선택"
+      },
+      "time": {
+        "title": "시간 선택",
+        "description": "시간"
+      },
+      "task": {
+        "title": "할 일 입력",
+        "placeholder": "할 일을 입력해주세요"
+      },
+      "assignees": {
+        "title": "당번 선택",
+        "placeholder": "당번을 선택해주세요"
+      }
+    },
+    "button": {
+      "edit": "수정",
+      "delete": "삭제"
+    }
+  },
+  "login": {
+    "title": "로그인",
+    "description": "이메일과 비밀번호를 입력해주세요",
+    "email": {
+      "label": "이메일",
+      "placeholder": "이메일을 입력해주세요",
+      "error": {
+        "required": "이메일을 입력해주세요",
+        "invalidEmail": "유효하지 않은 이메일입니다"
+      }
+    },
+    "password": {
+      "label": "비밀번호",
+      "placeholder": "비밀번호를 입력해주세요",
+      "error": {
+        "required": "비밀번호를 입력해주세요",
+        "length": "8 ~ 20자 이내"
+      }
+    }
+  },
+  "signUp": {
+    "title": "회원가입",
+    "email": {
+      "title": "이메일을\n입력해주세요",
+      "label": "이메일",
+      "placeholder": "이메일을 입력해주세요",
+      "error": {
+        "required": "이메일을 입력해주세요",
+        "invalidEmail": "유효하지 않은 이메일입니다"
+      }
+    },
+    "name": {
+      "title": "이름을\n입력해주세요",
+      "label": "이름",
+      "placeholder": "이름을 입력해주세요",
+      "error": {
+        "required": "이름을 입력해주세요",
+        "minLength": "최소 2자 이상이어야 합니다"
+      }
+    },
+    "password": {
+      "title": "비밀번호를\n입력해주세요",
+      "label": "비밀번호",
+      "placeholder": "비밀번호를 입력해주세요",
+      "error": {
+        "required": "비밀번호를 입력해주세요",
+        "requiredAlphabet": "영문 포함",
+        "requiredNumber": "숫자 포함",
+        "length": "8 ~ 20자 이내"
+      }
+    },
+    "confirmPassword": {
+      "label": "비밀번호 확인",
+      "placeholder": "비밀번호를 다시 입력해주세요",
+      "error": {
+        "required": "비밀번호를 확인해주세요",
+        "match": "올바른 비밀번호를 입력해주세요"
+      }
+    }
+  },
+  "inviteCode": {
+    "label": "초대 코드",
+    "placeholder": "초대 코드를 입력해주세요",
+    "error": {
+      "required": "초대 코드를 입력해주세요",
+      "invalid": "유효하지 않은 초대 코드입니다"
+    }
+  },
+  "createGroup": {
+    "title": "방 만들기",
+    "header": "함께 살 방을\n만들어볼까요?",
+    "maxParticipants": {
+      "label": "참여인원은 10명까지 가능해요"
+    },
+    "groupName": {
+      "label": "방 이름을 입력해주세요",
+      "placeholder": "방 이름을 입력해주세요",
+      "error": {
+        "required": "방 이름을 입력해주세요",
+        "maxLength": "20자 이내"
+      }
+    },
+    "confirm": "방 만들기"
+  },
+  "createProfile": {
+    "title": "프로필 설정",
+    "header": "프로필을\n설정해주세요",
+    "description": "원하는 프로필 이미지를 선택해주세요",
+    "profileImage": {
+      "error": {
+        "required": "프로필 이미지 중복"
+      }
+    },
+    "nickname": {
+      "label": "닉네임",
+      "placeholder": "닉네임을 입력해주세요",
+      "error": {
+        "required": "닉네임을 입력해주세요",
+        "duplicate": "닉네임 중복"
+      }
+    },
+    "confirm": "입주하기"
+  },
+  "shareInviteCode": {
+    "title": "초대하기",
+    "header": "방 만드신 걸 축하드려요!",
+    "description": "같이 살 친구들을 초대해볼까요?",
+    "inviteCode": {
+      "label": "초대 코드"
+    },
+    "confirm": "다음"
+  },
+  "next": "다음",
+  "prev": "이전",
+  "join": {
+    "title": "방 참여하기",
+    "header": "초대 코드를\n입력해주세요",
+    "inviteCode": {
+      "label": "초대 코드",
+      "placeholder": "초대 코드를 입력해주세요",
+      "error": {
+        "required": "초대 코드를 입력해주세요",
+        "invalid": "유효하지 않은 초대 코드입니다"
+      }
+    }
+  },
+  "onboarding": {
+    "blockChain": "블록체인으로\n우리의 동거 생활을\n더욱 안전하게",
+    "transfer": "월세, 공과금\n자동이체로\n더 편하게",
+    "budget": "우리만의 생활비를\n자유롭게\n관리해요",
+    "awkward": "소중한 친구들과\n어색해지지 않도록\n도와드릴게요",
+    "start": "Cha:nG와 함께하는\n새로운 동거 생활의\n시작을 환영해요",
+    "title": "셰어하우스에 입주해요",
+    "create": {
+      "title": "방 생성하기",
+      "description": "방장이 되어\n친구들을 초대해요"
+    },
+    "join": {
+      "title": "방 참여하기",
+      "description": "이미 생성된 방에\n입주해요"
+    },
+    "confirm": "입주하기"
+  },
+  "lifeRule": {
+    "title": "생활 규칙",
+    "updateTitle": "생활규칙 수정",
+    "updateApproveTitle": "생활규칙 수정 승인",
+    "updateMessage": "생활 규칙이 수정되었어요. 클릭해서 확인해주세요!",
+    "modal": {
+      "title": "생활규칙 수정 불가",
+      "description": "기존에 수정된 항목이 존재합니다\n승인 후에 수정할 수 있습니다",
+      "confirmText": "확인"
+    },
+    "updateModal": {
+      "title": "생활규칙 수정완료",
+      "description": "생활규칙 수정을 완료하시나요?\n완료를 누르면 수정 완료이 되니 신중히 결정해 주세요!",
+      "confirmText": "확인"
+    }
+  },
+  "my": {
+    "title": "마이",
+    "profile": {
+      "name": "이름",
+      "email": "이메일",
+      "group": "그룹원",
+      "introduce": "님 안녕하세요"
+    },
+    "account": {
+      "title": "계좌 목록",
+      "myAccount": "내 계좌",
+      "rentAccount": "월세 / 공과금 계좌",
+      "liveAccount": "생활비  계좌",
+      "ownerAccount": "집주인 계좌"
+    },
+    "edit": {
+      "title": "프로필 수정",
+      "header": "프로필을\n수정해주세요",
+      "description": "프로필 이미지 선택",
+      "confirm": "수정 완료"
+    }
+  },
+  "homePage": "홈",
+  "pledgePage": "서약관리",
+  "myPage": "마이",
+  "notice": {
+    "title": "알림"
+  },
+  "icon": {
+    "back": "뒤로 가기"
+  },
+  "main": {
+    "description": "입주 준비중이에요",
+    "codeCopy": {
+      "title": "코드 복사",
+      "label": "초대 코드",
+      "description": "같이 살 룸메들을 Cha:nG에 초대해주세요"
+    },
+    "issues": {
+      "all": "전체",
+      "duty": "당번",
+      "rent": "월세",
+      "utility": "공과금"
+    }
+  },
+  "goToHome": "홈으로",
+  "confirm": "확인",
+  "cancel": "취소",
+  "reset": "초기화",
+  "finish": "완료",
+  "logo": "Cha:nG",
+  "error": {
+    "400": {
+      "title": "잘못된 요청이에요",
+      "content": "입력값을 다시 확인해 주세요."
+    },
+    "401": {
+      "title": "허용하지 않은 접근이에요",
+      "content": "다시 로그인해주세요."
+    },
+    "404": {
+      "title": "페이지를 찾을 수 없어요",
+      "content": "존재하지 않는 주소를 입력하셨거나, 요청하신 페이지의 주소가 변경, 삭제되어 찾을 수 없어요."
+    },
+    "500": {
+      "title": "서버 오류가 발생했어요",
+      "content": "서버에서 문제가 발생했어요. 잠시 후 다시 시도해 주세요."
+    },
+    "999": {
+      "title": "알 수 없는 오류",
+      "content": "알 수 없는 오류가 발생했어요. 잠시 후 다시 시도해 주세요."
+    },
+    "ERR_NETWORK": {
+      "title": "네트워크 에러",
+      "content": "네트워크 에러가 발생했어요. 인터넷 연결을 확인해주세요."
+    }
+  },
+  "picker": {
+    "colon": ":",
+    "am": "오전",
+    "pm": "오후"
+  },
+  "contract": {
+    "title": "서약서",
+    "startDate": {
+      "title": "서약 기간",
+      "label": "서약 시작연월을 입력해주세요.",
+      "placeholder": "서약 시작일을 입력해주세요"
+    },
+    "endDate": {
+      "title": "서약 기간",
+      "label": "서약 종료연월을 입력해주세요",
+      "placeholder": "서약 종료일을 입력해주세요"
+    },
+    "rentTotalAmount": {
+      "title": "월세",
+      "label": "월세 + 관리비 포함된 금액을 입력해주세요",
+      "placeholder": "금액을 입력해주세요"
+    },
+    "rentTotalRatio": {
+      "title": "분담 방식",
+      "switch": {
+        "ratio": "비율",
+        "money": "금액"
+      },
+      "total": "총합",
+      "modalTitle": "월세 비율을 정해주세요",
+      "label": "모자란 금액은 Cha:nG에서 지원해드릴게요",
+      "validation": {
+        "valid": "올바른 금액을 입력해주세요.",
+        "match": "분담 금액의 총합은 월세와 같아야 해요."
+      }
+    },
+    "rentAccountNo": {
+      "title": "월세 계좌",
+      "validation": {
+        "leaderOnly": "방장만 월세 계좌를 개설할 수 있어요"
+      },
+      "label": "월세 계좌는 월세 자동이체에 사용됩니다",
+      "button": "월세 계좌 개설",
+      "afterLabel": "월세 계좌 개설이 완료되었어요"
+    },
+    "ownerAccountNo": {
+      "title": "집주인 계좌 번호",
+      "label": "월세 납부용 계좌 번호를 입력해주세요",
+      "placeholder": "계좌 번호를 입력해주세요"
+    },
+    "dueDate": {
+      "title": "월세 납부일",
+      "label": "2일 ~28일 사이로 월세 납부일을 입력해주세요",
+      "placeholder": "월세 납부일을 입력해주세요"
+    },
+    "utility": {
+      "switchTitle": "공과금 사용",
+      "title": "공과금",
+      "label": "신용 카드는 추후 공과금 자동이체에 사용됩니다",
+      "button": "공과금 신용 카드 개설",
+      "afterLabel": "공과금 신용 카드 개설이 완료되었어요",
+      "validation": {
+        "leaderOnly": "방장만 공과금용 신용카드를 개설할 수 있어요"
+      }
+    },
+    "draft": {
+      "title": "임시저장",
+      "content": "서약서를 임시저장할까요?\n서약서의 내용을 그룹원들이\n서로 확인할 수 있어요."
+    },
+    "update": {
+      "title": "최종제출",
+      "content": "서약서를 최종 제출하시겠어요?"
+    },
+    "pending": {
+      "title": "서약서 작성 완료!",
+      "description": "최종 서약서 검토 후\n모두의 승인이 완료되면 Cha:nG가 시작됩니다",
+      "confirmText": "최종 제출하기"
+    },
+    "modify": {
+      "title": "서약서 수정",
+      "description": "서약서를 수정하면, 이전에 다른 사용자들이 승인한 내용이 초기화되어요. 수정하시겠어요?",
+      "confirmText": "수정"
+    },
+    "approve": {
+      "title": "서약서 최종 승인",
+      "description": "서약서를 최종 승인하시겠어요?\n한 번 완료한 승인은 취소할 수 없어요.",
+      "confirmText": "승인"
+    },
+    "detail": {
+      "title": "서약서",
+      "modify": "수정",
+      "savePdf": "PDF로 저장",
+      "none": {
+        "title": "서약서 생성",
+        "button": "서약서 생성하기",
+        "description": "<{{value}}>만의 월세,\n공과금 서약서를 작성해주세요.",
+        "label": "서약서를 생성해주세요"
+      },
+      "draft": {
+        "title": "서약서 완성",
+        "button": "서약서 완성하기",
+        "description": "서약서 초안을 완성하고\n모두의 승인을 받아보세요",
+        "label": "초안 서약서"
+      },
+      "is_contract_approved": {
+        "title": "서약서 확인",
+        "button": "서약서 수정하기",
+        "cardButton": "서약서 확인하기",
+        "description": "룸메의 승인을 기다리는 서약서를 확인해보세요",
+        "label": "룸메의 승인을 기다리는 서약서",
+        "status": "대기중"
+      },
+      "pending": {
+        "title": "서약서 승인",
+        "button": "서약서 승인하기",
+        "description": "서약서를 확인하고\n승인해보세요",
+        "label": "승인이 필요한 서약서",
+        "status": "승인 필요"
+      },
+      "review_required": {
+        "title": "서약서 재승인",
+        "button": "서약서 재승인하기",
+        "description": "서약서가 수정되어서\n재승인이 필요해요",
+        "label": "재승인이 필요한 서약서",
+        "status": "재승인 필요"
+      },
+      "confirmed": {
+        "title": "서약서",
+        "button": "PDF로 저장하기",
+        "description": "서약서를 확인해보세요",
+        "label": "모든 사람이 승인한 서약서",
+        "status": "승인"
+      },
+      "contractDate": "서약 기간",
+      "userPaymentInfo": "서약자",
+      "totalAmount": "월세 / 관리비",
+      "dueDate": "월세 납부일",
+      "dueDateFormat": "매월 {{value}}일",
+      "totalRatio": "분담 비율",
+      "rentAccountNo": "월세 계좌",
+      "ownerAccountNo": "집주인 계좌",
+      "utilityDescription": "*공과금은 n분의 1 비율로 계산됩니다.",
+      "utilityCard": "공과금 신용 카드"
+    }
+  },
+  "fintech": {
+    "bankName": "한국",
+    "cardName": "SSAFY Cha:nG Life 카드"
+  },
+  "livingBudget": {
+    "all": "전체",
+    "depositAmount": "입금",
+    "withdrawalAmount": "출금",
+    "deposit": {
+      "title": "생활비",
+      "header": "개인 계좌에서\n생활비 계좌로 돈 채우기",
+      "label": "채우기",
+      "myAccountNo": {
+        "label": "생활비 계좌를 채우기 위한 내 계좌를 입력해주세요",
+        "placeholder": "계좌 번호를 입력해주세요",
+        "error": {
+          "required": "계좌 번호를 입력해주세요",
+          "same": "같은 계좌끼리는 채울 수 없어요"
+        }
+      },
+      "balance": {
+        "label": "생활비 계좌로 보낼 금액을 입력해주세요",
+        "placeholder": "금액을 입력해주세요",
+        "error": {
+          "required": "금액을 입력해주세요"
+        }
+      },
+      "success": {
+        "title": "생활비 채우기 완료",
+        "description": "{{userName}}님이 {{balance}}원을 생활비 계좌에 채웠어요"
+      }
+    },
+    "withdraw": {
+      "title": "생활비",
+      "label": "꺼내기",
+      "header": "생활비 계좌에서\n개인 계좌로 돈 꺼내기",
+      "myAccountNo": {
+        "label": "생활비 계좌에서 꺼내기 위한 내 계좌를 입력해주세요",
+        "placeholder": "계좌 번호를 입력해주세요",
+        "error": {
+          "required": "계좌 번호를 입력해주세요",
+          "same": "같은 계좌끼리는 꺼낼 수 없어요"
+        }
+      },
+      "balance": {
+        "label": "생활비 계좌에서 꺼낼 금액을 입력해주세요",
+        "placeholder": "금액을 입력해주세요",
+        "error": {
+          "required": "금액을 입력해주세요",
+          "min": "생활비 계좌에 있는 금액보다 많은 금액을 입력했어요."
+        }
+      },
+      "success": {
+        "title": "생활비 꺼내기 완료",
+        "description": "{{userName}}님이 {{balance}}원을 생활비 계좌에서 꺼냈어요"
+      }
+    }
+  },
+  "payment": {
+    "allPrefix": "모든 룸메들은 ",
+    "paymentStatus": {
+      "STARTED": {
+        "label": "Cha:nG와 함께하기 시작했어요",
+        "title": "공통 납부 시작 전"
+      },
+      "PARTIALLY_PAID": {
+        "label": "송금을 부분적으로 완료했어요",
+        "title": "공통 계좌로 모으기 실패"
+      },
+      "COLLECTED": {
+        "label": "공동 계좌로 송금을 완료했어요",
+        "title": "공통 계좌로 모으기 완료"
+      },
+      "RETRY_PENDING": {
+        "label": "집주인에게 송금을 실패해 재시도 예정이에요",
+        "title": "공통 계좌에서 납부 실패"
+      },
+      "PAID": {
+        "label": "집주인에게 송금했어요",
+        "title": "공통 납부 완료"
+      },
+      "FAILED": {
+        "label": "자동이체 납부가 실패했어요",
+        "title": "공통 납부 실패"
+      },
+      "DEBT": {
+        "label": "미납금이 연체되었어요",
+        "title": "공통 납부 연체"
+      },
+      "PENDING": {
+        "label": "자동이체 중이에요",
+        "title": "공통 계좌에서 자동이체 중"
+      },
+      "null": {
+        "label": "결과를 확인할 수 없어요",
+        "title": "해당 사항 없음"
+      }
+    },
+    "userPrefix": "{{value}} 님은 ",
+    "userPaymentStatus": {
+      "PENDING": {
+        "label": "납부 진행 중이에요",
+        "title": "개별 계좌에서 진행 중"
+      },
+      "COLLECTED": {
+        "label": "송금을 완료했어요",
+        "title": "개별 계좌에서 모으기 완료"
+      },
+      "FAILED": {
+        "label": "송금에 실패했어요",
+        "title": "개별 송금 실패"
+      },
+      "STARTED": {
+        "label": "납부 시작 전이에요",
+        "title": "개별 납부 시작 전"
+      },
+      "PARTIALLY_PAID": {
+        "label": "송금을 부분적으로 완료했어요",
+        "title": "개별 계좌에서 납부 실패"
+      },
+      "RETRY_PENDING": {
+        "label": "집주인에게 송금을 실패해 재시도 예정이에요",
+        "title": "개별 재시도 예약"
+      },
+      "PAID": {
+        "label": "월세 / 공과금 계좌로 송금했어요",
+        "title": "개별 납부 완료"
+      },
+      "DEBT": {
+        "label": "개별 납부가 연체되었어요",
+        "title": "개별 납부 연체"
+      },
+      "null": {
+        "label": "결과를 확인할 수 없어요",
+        "title": "해당 사항 없음"
+      }
+    },
+    "transfer": {
+      "owner": {
+        "title": "수동 이체",
+        "header": "집주인 계좌로\n 월세 보내기",
+        "label": "보내기",
+        "unpaid": "전체 월세 미납금({{month}} 기준)",
+        "month": {
+          "label": "월세 미납금 지불은 각 달마다 개별적으로 실행해요",
+          "placeholder": "월세 미납금을 지불할 달을 입력해주세요",
+          "error": {
+            "required": "월세 미납금을 지불할 달을 입력해주세요",
+            "future": "나중 월세는 미리 보낼 수 없어요",
+            "paid": "현재 지불할 금액이 없어요",
+            "empty": "월세/공과금 계좌에 해당 금액이 없어요. 계좌에 돈을 채워주세요"
+          }
+        },
+        "success": {
+          "title": "집주인 계좌로 월세 보내기 완료",
+          "description": "{{month}}의 월세 미납금 {{balance}}을 집주인 계좌로 보냈어요"
+        }
+      },
+      "rent": {
+        "title": "수동 이체",
+        "header": "월세 / 공과금 계좌로\n돈 보내기",
+        "label": "보내기",
+        "unpaid": "내 월세 미납금({{month}} 기준)",
+        "month": {
+          "label": "미납금 지불은 자동이체가 실패했을 때 각 달마다 개별적으로 실행해요",
+          "placeholder": "미납금을 지불할 달을 입력해주세요",
+          "error": {
+            "required": "미납금을 지불할 달을 입력해주세요",
+            "future": "돈을 미리 보낼 수 없어요",
+            "paid": "현재 지불할 금액이 없어요",
+            "empty": "내 계좌에 해당 금액이 없어요. 계좌에 돈을 채워주세요"
+          }
+        },
+        "success": {
+          "title": "월세 / 공과금 계좌로 돈 보내기 완료",
+          "description": "{{userName}}님이 {{balance}}을 월세 / 공과금 계좌로 보냈어요"
+        }
+      }
+    }
+  }
+}

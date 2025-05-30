@@ -1,0 +1,26 @@
+{
+  "name": "Chain G",
+  "short_name": "Chain G",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "가볍지만 신뢰할 수 있는 동거 서약관리 서비스",
+  "icons": [
+    {
+      "src": "/icons/homescreen16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/homescreen32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/homescreen192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF"
+}

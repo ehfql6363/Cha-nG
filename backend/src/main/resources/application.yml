@@ -1,0 +1,144 @@
+spring:
+  cloud:
+    aws:
+      region:
+        static: ${AWS_REGION}
+      credentials:
+        access-key: ${AWS_ACCESS_KEY_ID}
+        secret-key: ${AWS_SECRET_ACCESS_KEY}
+  application:
+    name:
+  config:
+    import:
+      - optional:file:.env[.properties] #ENV ?? ??
+      - aws-parameterstore:/chaing/
+
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-name: google
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+            redirect-uri: ${GOOGLE_REDIRECT_URI}
+            authorization-grant-type: authorization_code
+            scope:
+              - email
+              - profile
+  profiles:
+    active: dev
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 50MB
+      enabled: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${GOOGLE_MAIL_USERNAME}
+    password: ${GOOGLE_MAIL_PASSWORD}
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+  lifecycle:
+    timeout-per-shutdown-phase: 60s
+
+server:
+  shutdown: graceful
+
+application:
+  security:
+    jwt:
+      secret-key: ${APPLICATION_SECURITY_JWT_SECRET_KEY}
+      access-token-expiration: ${APPLICATION_SECURITY_JWT_ACCESS_TOKEN_EXPIRATION}
+      refresh-token-expiration: ${APPLICATION_SECURITY_JWT_REFRESH_TOKEN_EXPIRATION}
+
+firebase:
+  project-name: ${FIREBASE_PROJECT_NAME}
+  service-account-base64: ${FIREBASE_SERVICE_ACCOUNT}
+
+app:
+  cors:
+    allow-hosts:
+      - http://localhost:8080
+      - http://localhost:3000
+  frontend:
+    url: http://localhost:3000
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    version: openapi_3_0
+
+
+api:
+  naver:
+    client-id: ${API_NAVER_CLIENT_ID}
+    client-secret: ${API_NAVER_CLIENT_SECRET}
+
+cloud:
+  aws:
+    s3:
+      bucket: ${AWS_BUCKET_NAME}
+
+web3j:
+  client-address: ${web3j.client-address}
+  fallback-client-address: ${web3j.fallback-client-address}
+  connection-timeout: 15
+  contract-wallet-private-key: ${web3j.contract-wallet-private-key}
+  rent-wallet-private-key: ${web3j.rent-wallet-private-key}
+  utility-wallet-private-key: ${web3j.utility-wallet-private-key}
+  contract-address: ${web3j.contract-address} # DB 에 넣어야 함.
+  rent-contract-address: ${web3j.utility-contract-address}
+  utility-contract-address: ${web3j.rent-contract-address}
+  chain-id: ${web3j.chain-id}
+
+ssafy:
+  fintech:
+    api-key: ${FINTECH_API_KEY}
+    user-key: ${FINTECH_USER_KEY}
+    card-unique-no: ${FINTECH_CARD_UNIQUE_NO}
+    base-url: ${FINTECH_BASEURL}
+
+openai:
+  api:
+    key: ${GPT_API_KEY}
+    url: ${GPT_URL}
+  model: ${GPT_MODEL}
+
+#
+#logging:
+#  level:
+#    org.springframework.messaging.simp: DEBUG
+
+#decorator:
+#  datasource:
+#    p6spy:
+#      enable-logging: false
+##      enable-logging: true # ?? ?? ??

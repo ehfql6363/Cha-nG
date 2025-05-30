@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <style>
+    .draw-once {
+      fill: none;
+      stroke: #54a0ff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 9.8px;
+      stroke-dasharray: 3000;
+      stroke-dashoffset: 3000;
+      animation: draw 2s ease-in-out infinite;
+    }
+
+    @keyframes draw {
+      0% {
+        stroke-dashoffset: 3000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+
+    <path class="draw-once" d="
+    M79.67,21.58
+    v13.52
+    l-32.81-18.94
+    L14.05,35.1
+    v31.4
+    c0,6.56,5.32,11.88,11.88,11.88
+    h29.31
+    c22.67,0,25-12.5,25-17.85
+    c0-5.75-2.96-10.4-8.71-10.4
+    s-8.71,4.66-8.71,10.4
+    c0,5.29,3.02,17.85,24.95,17.85
+  "/>
+
+
+  <line class="draw-once" x1="30.68" y1="47.26" x2="30.68" y2="55.3"/>
+  <line class="draw-once" x1="44.79" y1="47.26" x2="44.79" y2="55.3"/>
+</svg>

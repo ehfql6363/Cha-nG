@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #292f35;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #54a0ff;
+      }
+
+      .cls-4 {
+        font-family: Paperlogy-7Bold, Paperlogy;
+        font-size: 22.22px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="47.99" cy="47.99" r="47.99"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <path class="cls-3" d="M47.99,5c23.7,0,42.99,19.28,42.99,42.99s-19.28,42.99-42.99,42.99S5,71.69,5,47.99,24.28,5,47.99,5M47.99,0C21.49,0,0,21.49,0,47.99s21.49,47.99,47.99,47.99,47.99-21.49,47.99-47.99S74.49,0,47.99,0h0Z"/>
+    <text class="cls-4" transform="translate(40.63 29.36) rotate(9.5) scale(1.04 1) skewX(-.76)"><tspan x="0" y="0">승인</tspan></text>
+    <g>
+      <rect class="cls-3" x="10.01" y="34.64" width="51.35" height="75.65" rx="24.86" ry="24.86" transform="translate(9.67 148.93) rotate(-135)"/>
+      <circle class="cls-2" cx="39.87" cy="60.84" r="2.57"/>
+      <circle class="cls-2" cx="54.74" cy="60.84" r="2.57"/>
+      <rect class="cls-3" x="17.47" y="26.61" width="14.09" height="39.54" rx="6.82" ry="6.82"/>
+    </g>
+  </g>
+</svg>

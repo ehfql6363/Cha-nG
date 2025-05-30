@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f96e69;
+      }
+
+      .cls-3 {
+        fill: #292f35;
+      }
+
+      .cls-4 {
+        fill: #ff8c8f;
+      }
+
+      .cls-5 {
+        fill: #fbb659;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="48" cy="48" r="47.87"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <circle class="cls-2" cx="48" cy="48" r="47.87"/>
+    <rect class="cls-5" x="29.69" y="-13.57" width="63.83" height="94.03" rx="30.9" ry="30.9" transform="translate(81.51 100.65) rotate(-135)"/>
+    <circle class="cls-3" cx="61.24" cy="46.88" r="3.19"/>
+    <circle class="cls-3" cx="48.17" cy="33.81" r="3.19"/>
+    <circle class="cls-1" cx="48" cy="48" r="47.87"/>
+    <circle class="cls-1" cx="48" cy="48" r="47.87"/>
+    <ellipse class="cls-4" cx="20.9" cy="46.07" rx="21.19" ry="44.61"/>
+    <rect class="cls-4" x="14.91" y="-20.64" width="31.23" height="36.12" transform="translate(7.12 -22.34) rotate(45)"/>
+  </g>
+</svg>

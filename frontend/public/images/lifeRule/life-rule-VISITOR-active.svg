@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #798593;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #d4ffdb;
+      }
+
+      .cls-4 {
+        fill: #292f35;
+      }
+
+      .cls-5 {
+        fill: #ebeef2;
+      }
+
+      .cls-6 {
+        fill: #54a0ff;
+      }
+
+      .cls-7 {
+        fill: #c9d6e7;
+      }
+    </style>
+  </defs>
+  <g id="_원" data-name="원">
+    <circle class="cls-3" cx="48" cy="48" r="48"/>
+  </g>
+  <g id="_레이어_1" data-name="레이어 1">
+    <g>
+      <path class="cls-7" d="M27.17,14.42h41.35c3.11,0,5.64,2.53,5.64,5.64v57.65H21.54V20.06c0-3.11,2.53-5.64,5.64-5.64Z"/>
+      <path class="cls-1" d="M31.42,20.12h33.62c1.8,0,3.26,1.46,3.26,3.26v54.33H27.4V24.15c0-2.22,1.8-4.02,4.02-4.02Z"/>
+      <rect class="cls-4" x="45.54" y="35.98" width="33.2" height="48.91" rx="16.6" ry="16.6" transform="translate(60.93 -26.24) rotate(45)"/>
+      <g>
+        <circle class="cls-5" cx="68.36" cy="53.26" r="1.66"/>
+        <circle class="cls-5" cx="75.16" cy="60.05" r="1.66"/>
+      </g>
+      <path class="cls-6" d="M60.51,86.15l-33.11-8.44V22.58c0-1.25,1.17-2.16,2.38-1.85l31.6,8.06c.78.2,1.33.9,1.33,1.71v53.93c0,1.15-1.09,2-2.2,1.71Z"/>
+      <circle class="cls-2" cx="55.91" cy="55.25" r="3.32"/>
+    </g>
+  </g>
+</svg>

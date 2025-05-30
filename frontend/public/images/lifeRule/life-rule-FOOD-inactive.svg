@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4b6cc;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f96e69;
+      }
+
+      .cls-4 {
+        fill: #2dbd99;
+      }
+
+      .cls-5 {
+        fill: #fec959;
+      }
+
+      .cls-6 {
+        fill: #0ead84;
+      }
+
+      .cls-7 {
+        fill: #c9d6e7;
+      }
+    </style>
+  </defs>
+  <g id="_원" data-name="원">
+    <circle class="cls-2" cx="48" cy="48" r="48"/>
+  </g>
+  <g id="_레이어_1" data-name="레이어 1">
+    <g>
+      <circle class="cls-3" cx="40.4" cy="33.01" r="8.51"/>
+      <ellipse class="cls-4" cx="61.06" cy="39.97" rx="24.76" ry="17.02" transform="translate(-10.38 54.88) rotate(-45)"/>
+      <circle class="cls-5" cx="31.12" cy="46.12" r="13.19"/>
+      <rect class="cls-6" x="35.34" y="41.91" width="42.78" height="4.77" rx="2.39" ry="2.39" transform="translate(-14.71 53.09) rotate(-45)"/>
+      <path class="cls-7" d="M60.21,77.38h-24.42c-10.28,0-18.83-7.92-19.61-18.17l-1.31-8.26h66.27l-1.31,8.26c-.78,10.25-9.33,18.17-19.61,18.17Z"/>
+      <rect class="cls-7" x="11.62" y="44.14" width="72.76" height="8.69" rx="1.85" ry="1.85"/>
+      <polygon class="cls-1" points="13.44 52.82 14.14 57.78 81.8 57.78 82.56 52.82 13.44 52.82"/>
+    </g>
+  </g>
+</svg>

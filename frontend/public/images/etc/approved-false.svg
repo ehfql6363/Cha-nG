@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4e9ff;
+      }
+
+      .cls-2 {
+        font-family: Paperlogy-7Bold, Paperlogy;
+        font-size: 14.55px;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f96e69;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #96795b;
+      }
+
+      .cls-6 {
+        fill: #292f35;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <ellipse class="cls-4" cx="32.06" cy="40" rx="32.03" ry="31.38"/>
+    </clipPath>
+  </defs>
+  <g class="cls-7">
+    <text class="cls-2" transform="translate(9.74 57.72) rotate(11.63) scale(1.06 1) skewX(-1.3)"><tspan x="0" y="0">반대</tspan></text>
+    <path class="cls-3" d="M58.12,8.11h0c-6.69-6.56-17.54-6.56-24.23,0l-11.47,11.24c-6.69,6.56-6.69,17.19,0,23.74h0c6.69,6.56,17.54,6.56,24.23,0l11.47-11.24c6.69-6.56,6.69-17.19,0-23.74Z"/>
+    <ellipse class="cls-6" cx="37.48" cy="33.2" rx="1.71" ry="1.68"/>
+    <ellipse class="cls-6" cx="27.56" cy="33.2" rx="1.71" ry="1.68"/>
+    <rect class="cls-3" x="43.02" y="29.44" width="9.41" height="26.14" rx="4.66" ry="4.66" transform="translate(95.45 85.02) rotate(180)"/>
+    <path class="cls-3" d="M32.06,13.62c14.9,0,27.03,11.83,27.03,26.38s-12.12,26.38-27.03,26.38S5.04,54.55,5.04,40s12.12-26.38,27.03-26.38M32.06,8.62C14.37,8.62.04,22.67.04,40s14.34,31.38,32.03,31.38,32.03-14.05,32.03-31.38-14.34-31.38-32.03-31.38h0Z"/>
+  </g>
+  <g>
+    <path class="cls-5" d="M60.29,27.47h8.19c1.02,0,1.85.81,1.85,1.81l-1.32,29.37h-9.26l-1.32-29.37c0-1,.83-1.81,1.85-1.81Z"/>
+    <path class="cls-1" d="M51.21,66.17h26.33v.27c0,2.72-2.21,4.94-4.94,4.94h-16.46c-2.72,0-4.94-2.21-4.94-4.94v-.27h0Z"/>
+    <rect class="cls-3" x="48.8" y="58.48" width="31.17" height="8.52" rx="4.22" ry="4.22"/>
+  </g>
+</svg>

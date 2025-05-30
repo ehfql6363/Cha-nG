@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>cha:n G 서약서</title>
+    <style>
+      body {
+        font-family: 'Paperlogy5', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-family: 'Paperlogy7', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+      }
+      .subtitle,
+      .description,
+      .section-row,
+      .agreement-list,
+      .page-number {
+        font-family: 'Paperlogy5', sans-serif;
+      }
+      .user-title,
+      .total,
+      .agreement-first-title {
+        font-family: 'Paperlogy7', sans-serif;
+        font-weight: 700;
+        vertical-align: top;
+        padding-top: 12px;
+      }
+      .container {
+        width: 210mm;
+        height: 297mm;
+        background-color: white;
+        box-sizing: border-box;
+        padding: 50px 46px 20px 46px;
+      }
+      .page {
+        width: 100%;
+        height: 257mm;
+        position: relative;
+        padding-bottom: 30mm;
+        page-break-after: always;
+      }
+      .user,
+      .user-title,
+      .user-total {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .user > div,
+      .user-title > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+      .user-total > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        padding: 10px;
+        border-top: 1px solid #000;
+      }
+      .agreement-section,
+      .agreement-first {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .agreement-section {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding-bottom: 20px;
+        > div {
+          border-top: 1px solid #ccc;
+        }
+      }
+      .agreement-list {
+        list-style-type: decimal;
+        margin-left: 20px;
+        font-size: 14px;
+        width: 92%;
+      }
+      .signature-section {
+        text-align: center;
+        margin-top: 40px;
+      }
+      .signature-date {
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-bottom: 100px;
+      }
+      .signature-box {
+        margin-top: 40px;
+      }
+      .signature-table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin: 0 auto;
+        border: 1px solid #000;
+      }
+      .signature-name-row td {
+        font-family: 'Paperlogy5', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 8px;
+      }
+      .signature-stamp-row td {
+        text-align: center;
+        padding: 10px;
+      }
+      .stamp {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+        background-color: #ffeeee;
+        color: #ff0000;
+        border: 1px solid #cc0000;
+        font-size: 12px;
+        text-align: center;
+        margin: 12px;
+      }
+      .user-title {
+        background-color: #edf0f4;
+        padding: 18px;
+        padding-left: 10px;
+        border-bottom: 1px solid #000;
+      }
+      .bottom-logo {
+        position: absolute;
+        bottom: 10mm;
+        font-size: 30px;
+        font-family: 'Paperlogy7', sans-serif;
+        width: 85%;
+        text-align: right;
+        padding-top: 40px;
+      }
+      .page-number {
+        position: absolute;
+        bottom: 0mm;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+      }
+      .inline-block {
+        display: inline-block;
+      }
+      .width-49 {
+        width: 49%;
+      }
+      .width-100 {
+        width: 100%;
+      }
+      .width-25 {
+        width: 25%;
+      }
+      .width-63 {
+        width: 63%;
+      }
+    </style>
+
+    %s
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <div class="subtitle">블록체인 기반</div>
+        <h1>cha:n G 서약서</h1>
+        <div class="description">서약서 ID: %s</div>
+        <div class="description">
+          해당 서약서는 모든 사람의 승인 하에 생성된 서약서 입니다.
+        </div>
+        <div>
+          <div class="inline-block width-49">
+            <div class="total">서약 기간</div>
+            <div class="section-row">시작일: %s</div>
+            <div class="section-row">종료일: %s</div>
+          </div>
+          <div class="inline-block width-49">
+            <div class="section-row total">월세</div>
+            <div class="section-row">월세 총액: %s</div>
+            <div class="section-row">월세 지불일: 매월 %s일</div>
+          </div>
+        </div>
+        <div class="user-title">월세 지불 정보</div>
+        %s
+        <div class="user user-total">
+          <div class="total">총</div>
+          <div>%d</div>
+          <div>%s원</div>
+        </div>
+        <div>
+          <div class="inline-block width-49">
+            <div class="total">계좌</div>
+            <div class="section-row">cha:nG 계좌: %s</div>
+            <div class="section-row">집주인 계좌: %s</div>
+          </div>
+          <div class="inline-block width-49">
+            <div class="total">공과금</div>
+            <div class="section-row">공과금 분배 비율: %s</div>
+            <div class="section-row">공과금 카드 ID: %s</div>
+          </div>
+        </div>
+        <div class="bottom-logo">cha:n G</div>
+        <div class="page-number">- 1 -</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="page">
+        <div class="agreement-section">
+          <div class="inline-block width-100">
+            <div class="agreement-first-title inline-block width-25">
+              서약해지 및 수정규정
+            </div>
+            <ol class="agreement-list inline-block width-63">
+              <li>
+                서약 해재를 원할 경우, 일정 기간의 예고와 상호협의가 필요합니다.
+              </li>
+              <li>
+                변동사항이 있을 경우 기존 서약서는 파기하고, 새로운 서약서를
+                생성해야 됩니다.
+              </li>
+            </ol>
+          </div>
+          <div>
+            <div class="agreement-first-title inline-block width-25">
+              블록체인 기반 서약서
+            </div>
+            <ol class="agreement-list inline-block width-63">
+              <li>
+                서약서는 블록체인 기술을 활용하여 기록되며, 투명하게 관리됩니다.
+              </li>
+              <li>임의로 수정, 변경이 불가능합니다.</li>
+              <li>블록체인에 저장되어 폴라곤스캔에서 상시 확인가능합니다.</li>
+            </ol>
+          </div>
+          <div>
+            <div class="agreement-first-title inline-block width-25">
+              법적 효력
+            </div>
+            <ol class="agreement-list inline-block width-63">
+              <li>
+                참여자 간의 합의로 효력을 발생하며, 모든 참여자는 해당 서약을
+                준수할 의무가 있습니다.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="signature-section">
+          <div class="signature-date">서약서 최종 승인일: %s</div>
+          <div class="signature-box">
+            <table class="signature-table">
+              <tr class="signature-stamp-row section-row">
+                <td>
+                  <div>이름</div>
+                  <div class="stamp">인</div>
+                </td>
+                <td>
+                  <div>이름</div>
+                  <div class="stamp">인</div>
+                </td>
+                <td>
+                  <div>이름</div>
+                  <div class="stamp">인</div>
+                </td>
+                <td>
+                  <div>이름</div>
+                  <div class="stamp">인</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="signature-section agreement-list">
+            이 계약서는서명일로부터 유효하며, 계약 종료 후 자동으로 종료됩니다.
+          </div>
+        </div>
+        <div class="bottom-logo"><span>cha:n G</span></div>
+        <div class="page-number">- 2 -</div>
+      </div>
+    </div>
+  </body>
+</html>

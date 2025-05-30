@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #292f35;
+      }
+
+      .cls-3 {
+        fill: #c9d6e7;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M11.74,12.31c15.61-15.29,40.92-15.29,56.53,0,15.61,15.29,15.61,40.09,0,55.39-15.61,15.29-40.92,15.29-56.53,0C-3.87,52.4-3.87,27.6,11.74,12.31Z"/>
+    </clipPath>
+  </defs>
+  <g class="cls-4">
+    <rect class="cls-3" x="13.33" y="19.06" width="53.29" height="76.93" rx="26.47" ry="26.47"/>
+    <ellipse class="cls-2" cx="32.26" cy="43.06" rx="2.66" ry="2.61"/>
+    <ellipse class="cls-2" cx="47.69" cy="43.06" rx="2.66" ry="2.61"/>
+    <path class="cls-1" d="M11.74,12.31c15.61-15.29,40.92-15.29,56.53,0,15.61,15.29,15.61,40.09,0,55.39-15.61,15.29-40.92,15.29-56.53,0C-3.87,52.4-3.87,27.6,11.74,12.31Z"/>
+  </g>
+</svg>

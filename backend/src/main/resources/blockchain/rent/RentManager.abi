@@ -1,0 +1,166 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_accountId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_month",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "_from",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_to",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "_status",
+				"type": "bool"
+			},
+			{
+				"internalType": "string",
+				"name": "_time",
+				"type": "string"
+			}
+		],
+		"name": "addTransaction",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllTransactions",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "accountId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "month",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "from",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "to",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "status",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "time",
+						"type": "string"
+					}
+				],
+				"internalType": "struct RentManager.Rent[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_accountId",
+				"type": "uint256"
+			}
+		],
+		"name": "getTransactionsByAccount",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "accountId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "month",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "from",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "to",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "status",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "time",
+						"type": "string"
+					}
+				],
+				"internalType": "struct RentManager.Rent[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

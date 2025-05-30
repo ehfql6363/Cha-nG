@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4e9ff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #96795b;
+      }
+
+      .cls-4 {
+        font-family: Paperlogy-7Bold, Paperlogy;
+        font-size: 14.54px;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #54a0ff;
+      }
+
+      .cls-6 {
+        fill: #292f35;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <ellipse class="cls-2" cx="32.16" cy="40" rx="32.03" ry="31.38"/>
+    </clipPath>
+  </defs>
+  <g class="cls-7">
+    <path class="cls-5" d="M32.16,13.62c14.9,0,27.03,11.83,27.03,26.38s-12.12,26.38-27.03,26.38S5.13,54.55,5.13,40s12.12-26.38,27.03-26.38M32.16,8.62C14.47,8.62.13,22.67.13,40s14.34,31.38,32.03,31.38,32.03-14.05,32.03-31.38-14.34-31.38-32.03-31.38h0Z"/>
+    <text class="cls-4" transform="translate(25.56 29.11) rotate(9.31) scale(1.06 1) skewX(-1.11)"><tspan x="0" y="0">찬성</tspan></text>
+    <g>
+      <path class="cls-5" d="M5.35,72.76l1.5,1.47c6.28,6.15,16.46,6.15,22.73,0l12.96-12.7c6.28-6.15,6.28-16.12,0-22.28l-1.5-1.47c-6.28-6.15-16.46-6.15-22.73,0l-12.96,12.7c-6.28,6.15-6.28,16.12,0,22.28Z"/>
+      <ellipse class="cls-6" cx="26.74" cy="48.4" rx="1.71" ry="1.68"/>
+      <ellipse class="cls-6" cx="36.66" cy="48.4" rx="1.71" ry="1.68"/>
+      <rect class="cls-5" x="11.79" y="26.02" width="9.41" height="25.86" rx="4.7" ry="4.7"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-3" d="M60.49,28.13h8.07c1.01,0,1.82.8,1.82,1.79l-1.3,28.93h-9.12l-1.3-28.93c0-.99.82-1.79,1.82-1.79Z"/>
+    <path class="cls-1" d="M51.55,66.25h25.94v.19c0,2.72-2.21,4.94-4.94,4.94h-16.06c-2.72,0-4.94-2.21-4.94-4.94v-.19h0Z"/>
+    <rect class="cls-5" x="49.17" y="58.67" width="30.7" height="8.39" rx="4.2" ry="4.2"/>
+  </g>
+</svg>

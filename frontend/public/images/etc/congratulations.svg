@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f96e69;
+      }
+
+      .cls-2 {
+        fill: #2dbd99;
+      }
+
+      .cls-3 {
+        fill: #fbb659;
+      }
+
+      .cls-4 {
+        fill: #fec959;
+      }
+
+      .cls-5 {
+        fill: #54a0ff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="72.6" y="50.7" width="29.58" height="111.83" rx="7.38" ry="7.38" transform="translate(-49.79 93.02) rotate(-45)"/>
+  <polygon class="cls-3" points="44.05 84.07 36.51 104.99 66.95 106.97 44.05 84.07"/>
+  <polygon class="cls-4" points="66.95 106.97 36.51 104.99 25.67 135.06 99.86 139.89 66.95 106.97"/>
+  <polygon class="cls-3" points="109.04 149.06 99.86 139.89 25.67 135.06 15.62 162.93 62.16 165.96 109.04 149.06"/>
+  <path class="cls-4" d="M62.16,165.96l-46.54-3.03-4.42,12.27c-1.5,4.17,2.53,8.21,6.71,6.71l44.25-15.95Z"/>
+  <rect class="cls-1" x="75.95" y="24.16" width="14.3" height="30.13" rx="7.15" ry="7.15" transform="translate(4.7 -8.71) rotate(6.17)"/>
+  <rect class="cls-2" x="136.8" y="96.76" width="14.3" height="30.13" rx="7.15" ry="7.15" transform="translate(32.12 255.77) rotate(-90)"/>
+  <rect class="cls-5" x="122.59" y="59.82" width="14.3" height="30.13" rx="7.15" ry="7.15" transform="translate(124.32 224.59) rotate(-117.92)"/>
+  <circle class="cls-5" cx="151.56" cy="23.87" r="8.51"/>
+  <circle class="cls-1" cx="168.84" cy="78.76" r="8.51"/>
+  <circle class="cls-4" cx="113.95" cy="44.72" r="8.51"/>
+</svg>

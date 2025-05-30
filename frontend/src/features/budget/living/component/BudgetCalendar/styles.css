@@ -1,0 +1,189 @@
+.calendar-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.account-info {
+  background-color: #e6f2ff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.account-label {
+  font-size: 14px;
+  color: #0066cc;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.account-number {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.account-balance {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.month-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.month-navigation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-arrow {
+  cursor: pointer;
+  color: #999;
+  font-size: 16px;
+}
+
+.current-month {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.expense-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.expense-label {
+  font-size: 12px;
+  color: #666;
+}
+
+.expense-amount {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* FullCalendar 커스텀 스타일 */
+.fc {
+  width: 100%;
+  font-family: inherit;
+  border: none;
+  background: none;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border: none;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border: none;
+}
+
+.fc .fc-scrollgrid-section-header > *,
+.fc .fc-scrollgrid-section-body > * {
+  border-right-width: 0;
+}
+
+.fc .fc-scrollgrid-section > * {
+  border-bottom-width: 0;
+}
+
+.fc .fc-col-header-cell {
+  padding: 1rem;
+}
+
+.fc .fc-col-header-cell-cushion {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  width: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* 토요일 색상 */
+.fc-day-sat .fc-col-header-cell-cushion,
+.fc-day-sat .day-number {
+  color: #5388cd !important;
+}
+
+/* 일요일 색상 */
+.fc-day-sun .fc-col-header-cell-cushion,
+.fc-day-sun .day-number {
+  color: #e74c3c !important;
+}
+
+.fc-daygrid-day {
+  cursor: pointer;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: transparent;
+}
+
+.fc .fc-daygrid-day.fc-day-today .day-number {
+  background-color: #0066cc;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+.day-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+}
+
+.day-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.event-content {
+  padding: 2px 0;
+  text-align: center;
+}
+
+.event-amount {
+  font-size: 12px;
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+/* 이전/다음 달 날짜 스타일 */
+.fc-day-other .day-number {
+  opacity: 0.3;
+}
+
+/* 날짜 셀 크기 조정 */
+.fc-daygrid-day-frame {
+  min-height: 50px;
+}
+
+.fc .fc-daygrid-body-balanced .fc-daygrid-day-events {
+  margin: 0;
+}
+
+/* 날짜 셀 hover 효과 */
+.fc-daygrid-day:hover {
+  background-color: #f0f0f0;
+}

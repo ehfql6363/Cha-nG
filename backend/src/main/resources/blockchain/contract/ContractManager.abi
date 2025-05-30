@@ -1,0 +1,491 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_startDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_endDate",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_rentTotalAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_rentDueDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_rentAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_ownerAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_rentTotalRatio",
+				"type": "uint256"
+			},
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "userId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ratio",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractManager.PaymentInfo[]",
+				"name": "_paymentInfos",
+				"type": "tuple[]"
+			},
+			{
+				"internalType": "string",
+				"name": "_liveAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isUtilityEnabled",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_utilitySplitRatio",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_cardId",
+				"type": "uint256"
+			}
+		],
+		"name": "addContract",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllContracts",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "startDate",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "endDate",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "totalAmount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dueDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "rentAccountNo",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerAccountNo",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "totalRatio",
+								"type": "uint256"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "userId",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "amount",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "ratio",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct ContractManager.PaymentInfo[]",
+								"name": "userPaymentInfo",
+								"type": "tuple[]"
+							}
+						],
+						"internalType": "struct ContractManager.Rent",
+						"name": "rent",
+						"type": "tuple"
+					},
+					{
+						"internalType": "string",
+						"name": "liveAccountNo",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "isEnabled",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "splitRatio",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "cardId",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ContractManager.Utility",
+						"name": "utility",
+						"type": "tuple"
+					}
+				],
+				"internalType": "struct ContractManager.ContractData[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getContractOverview",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "startDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "endDate",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getFullContractData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "startDate",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "endDate",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "rentTotalAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "rentDueDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "rentAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "ownerAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "rentTotalRatio",
+				"type": "uint256"
+			},
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "userId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ratio",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractManager.PaymentInfo[]",
+				"name": "paymentInfos",
+				"type": "tuple[]"
+			},
+			{
+				"internalType": "string",
+				"name": "liveAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "isUtilityEnabled",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "utilitySplitRatio",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "cardId",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getLiveAccountNo",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getPaymentInfoByIndex",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "userId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ratio",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getPaymentInfoCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getRentData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "totalAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "dueDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "rentAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "ownerAccountNo",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalRatio",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "paymentInfoCount",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getUtilityData",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "isEnabled",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "splitRatio",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "cardId",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_newLiveAccountNo",
+				"type": "string"
+			}
+		],
+		"name": "updateLiveAccountNo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

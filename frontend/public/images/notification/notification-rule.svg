@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d4ffdb;
+      }
+
+      .cls-2 {
+        fill: #f96e69;
+      }
+
+      .cls-3 {
+        fill: #fec959;
+      }
+
+      .cls-4 {
+        fill: #fffbe8;
+      }
+    </style>
+  </defs>
+  <g id="_원" data-name="원">
+    <circle class="cls-1" cx="48" cy="48" r="48"/>
+  </g>
+  <g id="_레이어_1" data-name="레이어 1">
+    <g>
+      <path class="cls-2" d="M30.55,16.94h41.49c2.61,0,4.72,2.12,4.72,4.72v52.67c0,2.61-2.12,4.72-4.72,4.72H30.55V16.94h0Z"/>
+      <path class="cls-3" d="M23.96,16.94h6.53v62.12h-6.53c-2.61,0-4.72-2.12-4.72-4.72V21.66c0-2.61,2.12-4.72,4.72-4.72Z"/>
+      <rect class="cls-4" x="48.08" y="14.06" width="12.09" height="34.48" rx="3.23" ry="3.23" transform="translate(22.82 85.42) rotate(-90)"/>
+    </g>
+  </g>
+</svg>
